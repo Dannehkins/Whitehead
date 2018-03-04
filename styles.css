@@ -1,0 +1,63 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin-top: -35px;
+  font-family: 'Lato', sans-serif;
+}
+
+.header-container {
+  display: block;
+  background-color: black;
+  width: 600px;
+  height: 50px;
+  position: fixed;
+  left: 50%;
+  margin-left: -300px;
+  }
+
+  #header-nav li {
+  display: inline;
+  color: white;
+  padding-left: 30px;
+  }
+
+#header-nav a {
+  text-decoration: none;
+  color: white;
+}
+
+#background1 {
+
+  background-image: url("RCWGroup.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  height: 1000px;
+  width: auto;
+  }
+
+#background1content {
+  background-color: black;
+  width: auto;
+  height: 400px;
+  margin: 0 auto;
+  transform: translate(0px, 1000px);
+}
+
+.background-title h2 {
+  text-align: center;
+  color: white;
+  font-size: 40px;
+}
+
+#background2 {
+  background-image: url("Lab.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  height: 1500px;
+  width: auto;
+}
