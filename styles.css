@@ -46,12 +46,21 @@ body {
   height: 400px;
   margin: 0 auto;
   transform: translate(0px, 1000px);
-}
+  }
 
 .background-title h2 {
   text-align: center;
   color: white;
   font-size: 40px;
+}
+
+.background-title p {
+  text-align: justify;
+  color: white;
+  font-size: 30px;
+  line-height: 2.5;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 #background2 {
@@ -61,3 +70,33 @@ body {
   height: 1500px;
   width: auto;
 }
+
+#background2content {
+  background-color: black;
+  width: auto;
+  height: 400px;
+  margin: 0 auto;
+  transform: translate(0px, 1300px);
+  }
+
+#background3 {
+  background-color: white;
+  background-size: cover;
+  width: auto;
+  height: 1500px;
+  }
+
+
+  #member1 img {
+    display: inline;
+    height: 300px;
+    border-radius: 200px;
+    transform: translate(100px, 400px);
+  }
+
+  #member2 img {
+    display: inline;
+    height: 300px;
+    border-radius: 200px;
+    transform: translate(600px, 95px);
+  }
